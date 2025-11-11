@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: meta-llama/Llama-3.2-11B-Vision-Instruct
+adapter_name_or_path: saves/llama_vision/lora/sft
+template: mllama
+trust_remote_code: true
+
+### export
+export_dir: output/Llama-3.2-11B-Vision-Instruct-banglaprotha
+export_size: 5
+export_device: auto  # choices: [cpu, auto]
+export_legacy_format: false

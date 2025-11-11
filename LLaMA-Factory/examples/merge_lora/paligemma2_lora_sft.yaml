@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: google/paligemma2-10b-pt-448
+adapter_name_or_path: saves/paligemma2-finetune/lora/sft
+template: paligemma
+trust_remote_code: true
+
+### export
+export_dir: output/paligemma2-10b-pt-448-banglaprotha
+export_size: 5
+export_device: cpu  # choices: [cpu, auto]
+export_legacy_format: false
