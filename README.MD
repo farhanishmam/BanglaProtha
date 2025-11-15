@@ -20,8 +20,8 @@
 
 ## Setup
 
-- Put the test image in a folder name `images` inside `data` folder.
-- Inside `data` folder put the model test json file as `{model_name}_test_set_predictions.json`.
+- Download the test images and put them in `data\images`.
+- Inside `data` folder put the model test json file as `test_set_predictions.json`.
 - Install the following packages using:
 
 ```bash
