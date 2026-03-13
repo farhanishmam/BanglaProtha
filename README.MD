@@ -44,3 +44,18 @@ python infer.py --model-type <model_name>
 ```
 
 **Note:** See the `model_example_map` dict (Line 1028) in `infer.py` for model types.
+
+## Citation
+
+If you found this work useful, please consider citing:
+
+```bibtex
+@InProceedings{Fahim_2026_WACV,
+    author    = {Fahim, Md and Rahman, Md Sakib Ul and Rahman, Akm Moshiur and Ishmam, Md Farhan and Rahman, Md Tasmim and Shifat, Fariha Tanjim and Haider, Fabiha and Alam Bhuiyan, Md Farhad},
+    title     = {BanglaProtha: Evaluating Vision Language Models in Underrepresented Long-tail Cultural Contexts},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {March},
+    year      = {2026},
+    pages     = {1159-1169}
+}
+```
